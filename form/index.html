@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div class="div-form">
+
+            <div>
+                <label for="name">Company Name</label>
+                <input class="input-txt" name="name" id="name" type="text">
+            </div>
+
+            <h3>Owner</h3>
+
+            <div>
+                <label for="">First Name</label>
+                <input type="text" class="input-txt" name="first" id="first">
+            </div>
+
+            <div>
+                <label for="last">Last Name</label>
+                <input type="text" class="input-txt" name="last" id="last">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" class="input-txt" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="date">D.O.B.
+                    <input class="input-txt" type="date" id="date" name="date">
+                </label>
+            </div>
+
+            <div>
+                <label for="dot">DOT
+                    <input type="text" class="input-txt" id="dot" name="dot" required>
+                </label>
+                <p>**If there is no DOT please fil 999999**</p>
+            </div>
+
+            <h3>TAX ID / FEIN / Social</h3>
+            <div class="div-rad">
+                <label for="TAX ID">
+                    <input type="radio" name="option" id="TAX ID">TAX ID
+                </label>
+                
+                <label for="FEIN">
+                    <input type="radio" name="option" id="FEIN">FEIN
+                </label>
+
+                <label for="social">
+                    <input type="radio" name="option" id="social">Social
+                </label>
+            </div>
+
+            <input class="botons" type="submit">
+        </div>
+    </form>
+</body>
+</html>
