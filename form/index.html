@@ -30,7 +30,7 @@
 
             <div>
                 <label for="email">Email</label>
-                <input type="email" class="input-txt" name="email" id="email">
+                <input type="email" class="input-txt" name="email" id="email" placeholder="Example@gmail.com">
             </div>
 
             <div>
@@ -39,30 +39,27 @@
                 </label>
             </div>
 
-            <div>
+            <div class="div-dot"> 
                 <label for="dot">DOT
-                    <input type="text" class="input-txt" id="dot" name="dot" required>
+                    <input type="text" class="input-txt" id="dot" name="dot" required >
                 </label>
                 <p>**If there is no DOT please fil 999999**</p>
             </div>
 
             <h3>TAX ID / FEIN / Social</h3>
-            <div class="div-rad">
-                <label for="TAX ID">
-                    <input type="radio" name="option" id="TAX ID">TAX ID
-                </label>
+            <div>
                 
-                <label for="FEIN">
-                    <input type="radio" name="option" id="FEIN">FEIN
-                </label>
+                <select class="input-txt" name="" id="" required>
+                    <option value="" selected disabled>Select a Option</option>
+                    <option name="op1"id="op1" value="TAX ID">TAX ID</option>
+                    <option name="op2"id="op2" value="FEIN">FEIN</option>
+                    <option name="op3"id="op3" value="social">Social</option>
+                </select>
 
-                <label for="social">
-                    <input type="radio" name="option" id="social">Social
-                </label>
-            </div>
-
-            <input class="botons" type="submit">
+                <label for="">Provide the number of the corresponding option</label>
+                <input class="input-txt" type="text" id="id" name="id" required>
         </div>
     </form>
+    <input class="botons" type="submit">
 </body>
 </html>
